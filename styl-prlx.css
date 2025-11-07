@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "sf";
+  src: url(./assets/SFPRODISPLAYMEDIUM.OTF);
+}
+body {
+  background: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "sf"; 
+}
+
+a {
+  color: white;
+  border: 30px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  text-align: center;
+  /* background-color: red; */
+  color: white;
+  margin-top: 40px;
+}
+#img-back {
+  display: flex;
+  /* background-color: red; */
+  /* text-align: center; */
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 100px;
+}
+#Right {
+  /* width: 1000px; */
+  /* background-color: red; */
+  position: absolute;
+  top: 0;
+}
+#Left {
+  /* width: 500px;     */
+  position: absolute;
+  top: 0;
+}
+.awl {
+  color: green;
+  font-size: x-large;
+}
+.bwh {
+  color: white;
+  font-size: 125px;
+}
+.text {
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
