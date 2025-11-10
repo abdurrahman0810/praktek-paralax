@@ -1,6 +1,6 @@
 @font-face {
   font-family: "sf";
-  src: url(./assets/SFPRODISPLAYMEDIUM.OTF);
+  src: url(./SFPRODISPLAYMEDIUM.OTF);
 }
 body {
   background: #000;
@@ -18,7 +18,7 @@ a {
 .navigation {
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 60px;
   text-align: center;
   /* background-color: red; */
   color: white;
@@ -27,25 +27,41 @@ a {
 #img-back {
   display: flex;
   /* background-color: red; */
+  align-items: end;
+  height: 600px;
   /* text-align: center; */
   justify-content: space-between;
-  margin-right: 30px;
-  width: 100px;
+  /* margin-right: 30px; */
+  /* width: 100px; */
+  position: relative;
+
 }
 #Right {
-  /* width: 1000px; */
-  /* background-color: red; */
+  width: 500px;
   position: absolute;
-  top: 0;
+  bottom: 0;
+  right: 0;
+   margin-bottom: -100px;
+   margin-right: -100px;
+  /* margin-left: 10000px; */
+  transform: scale(1);
 }
 #Left {
-  /* width: 500px;     */
+  width: 500px;    
   position: absolute;
-  top: 0;
+  bottom: 0;
+  left: 0px;
+  margin-bottom: -100px;
+  margin-left: -100px;
+  transform: scale(1);  
 }
+/* #parent-left{
+  background-color: aqua;
+} */
 .awl {
   color: green;
   font-size: x-large;
+  font-weight: 700;
 }
 .bwh {
   color: white;
