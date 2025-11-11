@@ -6,6 +6,7 @@ body {
   background: #000;
 }
 * {
+
   margin: 0;
   padding: 0;
   font-family: "sf"; 
@@ -28,7 +29,7 @@ a {
   display: flex;
   /* background-color: red; */
   align-items: end;
-  height: 600px;
+  height: 300px;
   /* text-align: center; */
   justify-content: space-between;
   /* margin-right: 30px; */
@@ -61,15 +62,24 @@ a {
 .awl {
   color: green;
   font-size: x-large;
-  font-weight: 700;
+  font-weight: 600;
+  
 }
 .bwh {
   color: white;
   font-size: 125px;
 }
 .text {
+  /* display: flex; */
   text-align: center;
-  position: relative;
-  top: 0;
-  left: 0;
+  margin-top: 200px;
+  /* position: relative; */
+
+  /* padding-top: 40px; */
+  /* bottom:0 ; */
+  /* background-color: red; */
+  gap: 100;
+}
+#about{
+  height: 300vh;
 }
