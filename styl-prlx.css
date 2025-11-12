@@ -35,8 +35,6 @@ a {
   /* margin-right: 30px; */
   /* width: 100px; */
   position: relative;
-  
-
 }
 #Right {
   width: 400px;
@@ -48,8 +46,7 @@ a {
 
   /* margin-left: 10000px; */
   transform: scale(1);
-  max-width:100vh;
-
+  max-width: 100vh;
 }
 #Left {
   width: 500px;
@@ -64,7 +61,7 @@ a {
   background-color: aqua;
 } */
 .awl {
-  color: green;
+  color: #1bff07;
   font-size: x-large;
   font-weight: 600;
 }
@@ -85,4 +82,56 @@ a {
 }
 #about {
   height: 300vh;
+}
+
+#navigation-two {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-right: 20px;
+  margin-top: 40px;
+  color: white;
+  justify-content: center;
+}
+
+.text-two {
+  color: white;
+  text-align: center;
+  margin-top: 400px;
+  /* margin-bottom: 400px; */
+
+  gap: 10px;
+}
+#img-back-2 {
+  background-color: red !important;
+  transform: rotateY(0 deg);
+  transform-origin: bottom center;
+}
+
+.first {
+  font-weight: bolder;
+  color: #1bff07;
+  font-size: x-large;
+}
+
+.last {
+  font-size: 250px;
+  font-weight: 900;
+}
+.kiri {
+  width: 500px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  margin-bottom: -1000px;
+  margin-left: -100px;
+}
+.kanan {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -1000px;
+  margin-right: 0px;
 }
